@@ -1,0 +1,21 @@
+//Raushan Ranjan
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+    int n, m, sumi, diff_i;
+    float a, b,diff_f,sumf;
+    scanf("%d %d", &n, &m);
+    scanf("%f %f", &a, &b);
+    sumi = n + m;
+    sumf = a + b;
+    diff_i = n - m;
+    diff_f = a - b;
+    printf("%d %d\n", sumi, diff_i);
+    printf("%.1f %.1f", sumf, diff_f);
+    
+   return 0;
+}
